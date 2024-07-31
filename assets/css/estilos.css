@@ -9,10 +9,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  
 }
 
 /* Mis trabajos */
 
+#Mis-trabajos {
+  text-align: center;
+  background-color: #28a745; 
+}
+#Mis-trabajos .row{
+  display:flex;
+  justify-content: center;
+}
+#Mis-trabajos .card{
+  display:flex;
+  justify-content: center;
+}
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -24,7 +37,7 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #bc1a70;
 }
 
 @media (max-width: 768px) {
